@@ -75,14 +75,14 @@ body{
 }
 .banner-bg{
 	width: 1200px;
-	height: 600px;
+	height: 500px;
 	overflow: hidden;
 	margin: 0 auto;
 	position: relative;
 }
 .banner-container{
 	width: 4800px;
-	height: 600px;
+	height: 500px;
 	position: absolute;
 }
 .banner-img{
@@ -348,12 +348,16 @@ body{
 }
 
 /* 活动页 */
+
 .act-ad{
 	height: 380px;
+	text-align: center;
+	color: #fff;
+	background: url('../imgs/act-ad-pic.jpg')
+	center center no-repeat;
 }
-.act-ad img{
-	margin: 0 auto;
-}
+
+
 
 .act-action{
 	padding: 70px 0;
@@ -600,4 +604,10 @@ body{
 	font-size: 16px;
 	color: #666;
 	line-height: 28px;
+}
+
+@media screen and (max-width:700px) {
+	html,body{
+		width: 1200px;
+	}
 }
